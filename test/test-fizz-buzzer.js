@@ -29,8 +29,6 @@ describe('fizzBuzzer', function() {
     ];
 
     const expected = 'fizz-buzz';
-    // for each set of inputs (a, b), `adder` should
-    // produce the expected value
     normalCases.forEach(function(input) {
       const answer = fizzBuzzer(input);
       expect(answer).to.equal(expected);
